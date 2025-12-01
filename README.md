@@ -60,7 +60,7 @@ Mueve la carpeta del proyecto a la carpeta raíz de tu servidor web (htdocs, www
 3. Ejecución
 Abre tu navegador web.
 
-Navega a la URL: http://localhost/[]
+Navega a la URL: http://localhost/index.php
 
 📝 Contribuciones y Desarrollo
 ¡Las contribuciones para modernizar aún más la aplicación son bienvenidas! Si deseas contribuir:
