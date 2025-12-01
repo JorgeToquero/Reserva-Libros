@@ -1,1 +1,87 @@
-📚 Aplicación Web de Reserva de Libros 🚀Este repositorio contiene el código de una aplicación web diseñada para la reserva y gestión de un catálogo de libros1. La aplicación soporta tres roles de usuario distintos para un control de acceso granular2.✨ Roles y Servicios de la AplicaciónLa aplicación ofrece servicios diferenciados según el rol del usuario3:👥 Invitados (No Registrados)Visualizar todos los libros4.Permitir registrarse en el sistema5.Permitir autenticarse en el sistema6.👤 Usuarios RegistradosReservar libros7.Cancelar sus propias reservas8.Ver la disponibilidad de los libros9.👑 Administrador (Parte de Administración)El administrador, una vez autenticado, accede a la parte de gestión para realizar las siguientes acciones10:Eliminar usuarios11.Crear libros12.Borrar libros13.Cancelar reservas de todos los usuarios14.💻 Instalación y ConfiguraciónSigue estos pasos para instalar y poner en funcionamiento la aplicación web15:1. Preparación de ArchivosDescomprimir el fichero16.Colocar la carpeta con su contenido en el directorio del servidor web (htdocs o similar)17.2. Configuración de la Base de DatosEdita el fichero config.php 18 para establecer los parámetros de conexión:$server: La IP del servidor o localhost19.$user: Usuario con privilegios para la base de datos20.$pass: Contraseña para el usuario de la base de datos21.$Database: Nombre de la base de datos que se va a crear22.3. Creación de la Base de Datos y AdministradorUna vez configurado config.php, ejecuta el fichero instalar.php para crear toda la base de datos23.4. Credenciales de Administrador por DefectoTras la instalación, se creará un usuario administrador por defecto 24 con las siguientes credenciales:Login: admin 25Password: 1234 26🗃️ Estructura de la Base de DatosLa aplicación utiliza la siguiente estructura de tablas para gestionar la información27:TablaCamposUsuariosLogin, password, rol, nombre, apellidos28.Librostitulo, isbn, categoría, autor, editorial29.Reserva_libroslogin, isbn, fecha.🧑‍💻 Autor[Tu Nombre o Nickname] - Tu Perfil de GitHubAhora solo tienes que copiar este contenido, pegarlo en tu archivo README.md en VS Code, rellenar los pocos [corchetes] restantes (como tu usuario de GitHub) y luego hacer el commit y el push (sincronizar los cambios) a tu repositorio.¿Te gustaría que te ayude a crear una guía rápida de las tecnologías que usaste (PHP, MySQLi, HTML/CSS) para otra sección del README?
+
+¡Excelente! Con la documentación de la aplicación web de reserva de libros, podemos crear un README.md muy preciso que refleje fielmente la funcionalidad, los roles de usuario y los pasos de instalación.
+
+Aquí tienes el README.md preparado en base a tu documentación:
+
+📚 Aplicación Web de Reserva de Libros 🚀
+Este repositorio contiene el código de una aplicación web diseñada para la reserva y gestión de un catálogo de libros. La aplicación soporta tres roles de usuario distintos para un control de acceso granular.
+
+✨ Roles y Servicios de la Aplicación
+La aplicación ofrece servicios diferenciados según el rol del usuario:
+
+👥 Invitados (No Registrados)
+Visualizar todos los libros.
+
+Permitir registrarse en el sistema.
+
+Permitir autenticarse en el sistema.
+
+👤 Usuarios Registrados
+Reservar libros.
+
+Cancelar sus propias reservas.
+
+Ver la disponibilidad de los libros.
+
+👑 Administrador (Parte de Administración)
+El administrador, una vez autenticado, accede a la parte de gestión para realizar las siguientes acciones:
+
+Eliminar usuarios.
+
+Crear libros.
+
+Borrar libros.
+
+Cancelar reservas de todos los usuarios.
+
+💻 Instalación y Configuración
+Sigue estos pasos para instalar y poner en funcionamiento la aplicación web:
+
+1. Preparación de Archivos
+Descomprimir el fichero.
+
+Colocar la carpeta con su contenido en el directorio del servidor web (htdocs o similar).
+
+2. Configuración de la Base de Datos
+Edita el fichero config.php  para establecer los parámetros de conexión:
+
+
+$server: La IP del servidor o localhost.
+
+
+$user: Usuario con privilegios para la base de datos.
+
+
+$pass: Contraseña para el usuario de la base de datos.
+
+
+$Database: Nombre de la base de datos que se va a crear.
+
+3. Creación de la Base de Datos y Administrador
+Una vez configurado config.php, ejecuta el fichero instalar.php para crear toda la base de datos.
+
+4. Credenciales de Administrador por Defecto
+Tras la instalación, se creará un usuario administrador por defecto  con las siguientes credenciales:
+
+
+Login: admin 
+
+
+Password: 1234 
+
+🗃️ Estructura de la Base de Datos
+La aplicación utiliza la siguiente estructura de tablas para gestionar la información:
+
+Tabla	Campos
+Usuarios	
+
+Login, password, rol, nombre, apellidos.
+
+Libros	
+
+titulo, isbn, categoría, autor, editorial.
+
+Reserva_libros	login, isbn, fecha.
+🧑‍💻 Autor
+[https://github.com/JorgeToquero/aplicacion] - Tu Perfil de GitHub
+
