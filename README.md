@@ -62,7 +62,6 @@ Tras la instalación, se creará un usuario administrador por defecto  con las s
 
 Login: admin 
 
-
 Password: 1234 
 
 🗃️ Estructura de la Base de Datos
