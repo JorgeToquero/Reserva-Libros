@@ -54,7 +54,7 @@ Clona este repositorio o descarga los archivos:
 
 Bash
 
-git clone https://github.com/https://github.com/JorgeToquero/aplicacion
+git clone https://github.com/JorgeToquero/aplicacion
 aplicacion
 Mueve la carpeta del proyecto a la carpeta raíz de tu servidor web (htdocs, www, o public_html).
 
