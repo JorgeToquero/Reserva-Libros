@@ -76,8 +76,7 @@ Libros
 
 titulo, isbn, categoría, autor, editorial.
 
-
-
+<img width="1835" height="903" alt="Captura de pantalla 2025-12-02 193712" src="https://github.com/user-attachments/assets/831346a8-0823-4e0d-94ea-c20f2b9a5b13" />
 
 <img width="1389" height="702" alt="Captura de pantalla 2025-12-01 222854" src="https://github.com/user-attachments/assets/e080a168-dddd-49bf-8c31-c3a7624ee1a3" />
 
